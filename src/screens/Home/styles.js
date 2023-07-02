@@ -23,10 +23,18 @@ const styles = StyleSheet.create({
     marginTop: 75,
   },
   button: {
-    textAlign: 'center',
     color: colors.white,
     margin: 15,
     fontWeight: 'bold',
+    width: 150,
+    height: 50,
+    textAlign: 'center',
+    marginTop: 5,
+    textAlignVertical: 'center',
+  },
+  joke: {
+    textAlign: 'center',
+    fontSize: 20,
   },
 });
 

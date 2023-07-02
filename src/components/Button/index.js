@@ -6,7 +6,7 @@ const Button = ({text, style}) => {
   return (
     <View style={styles.container}>
       <TouchableOpacity style={styles.button}>
-        <Text style={style}>{text}</Text>
+        <Text style={[styles.text, style]}>{text}</Text>
       </TouchableOpacity>
     </View>
   );

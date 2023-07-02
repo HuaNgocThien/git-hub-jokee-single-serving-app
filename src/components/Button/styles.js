@@ -8,9 +8,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   button: {
-    backgroundColor: colors.green,
-    width: 150,
-    height: 50,
+    flexDirection: 'row',
   },
 });
 

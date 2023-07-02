@@ -5,6 +5,7 @@ const colors = {
   ligthGrey2: '#A9A9A9',
   black: '#000000',
   grey: '#484848',
+  blue: '#2c7edb',
 };
 
 export default colors;

@@ -1,9 +1,10 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {Text, View, SafeAreaView, ScrollView} from 'react-native';
 import styles from './styles';
 import Header from '../../components/Header';
 import Joke from '../../components/Joke';
 import Button from '../../components/Button';
+import colors from '../../constants/colors';
 import Footer from '../../components/Footer';
 
 const Home = () => {
@@ -30,8 +31,14 @@ const Home = () => {
           <View>
             <Joke />
             <View style={styles.buttonContainer}>
-              <Button style={styles.button} text={'This is Funny!'} />
-              <Button style={styles.button} text={'This is not funny.'} />
+              <Button
+                style={[styles.button, {backgroundColor: colors.blue}]}
+                text={'This is Funny!'}
+              />
+              <Button
+                style={[styles.button, {backgroundColor: colors.green}]}
+                text={'This is not funny.'}
+              />
             </View>
           </View>
           <View>
